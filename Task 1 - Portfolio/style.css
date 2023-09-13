@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Inconsolata:wght@400;500;600;700;800&family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+header{
+    background-color:var(--main-color);
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width:150px;
+}
+.about-text{
+    padding: 10%;
+}
+.menu-slider{
+    background-color: #3f7af8;
+    width: 30vw;
+    height: 100vh;
+    position: fixed;
+    right: -100%;
+    top: 0px;
+    z-index: 1;
+    border-radius: 3rem 0px 0px 3rem;
+}
+
+.menu-slider>ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu-slider>ul>li{
+    padding: 2rem;
+    font-size: 1rem;
+    font-family: 'Rubik';
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.skill-list-bg{
+    background-image: linear-gradient(to right bottom, #cbddf8, #b5dafd, #99d7ff, #74d6ff, #3dd4fd);
+    padding: 4rem;
+}
+
+.skill-style>div{
+    background: transparent;
+    border:0px;
+}
+.skill-style{
+    background:transparent;
+    box-shadow: 1px 0px 40px -10px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+}
+.about-text-1{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.about-text-2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.nav ul li{
+    font-size: 39px;
+}
+.About img{
+    display: flex;
+    width: 365px;
+}
+.bio{
+    font-family: 'Inconsolata', monospace;
+}
